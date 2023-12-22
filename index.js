@@ -12,23 +12,48 @@ They should return the result of the respective calculation:
 
 function add(a, b) {
   // Code here
+  return a + b;
 }
+
+const sum = add(1, 2);
+console.log(sum);
+//-----------------------------------------
 
 function subtract(a, b) {
   // Code here
+  return a - b;
 }
+
+const difference = subtract(7, 2);
+console.log(difference);
+//-----------------------------------------
 
 function multiply(a, b) {
   // Code here
+  return a * b;
 }
+
+const product = multiply(6, 12);
+console.log(product);
+//-----------------------------------------
 
 function divide(a, b) {
   // Code here
+  return a / b;
 }
+
+const quotient = divide(144, 12);
+console.log(quotient);
+//-----------------------------------------
 
 function remainder(a, b) {
   // Code here
+  return a % b;
 }
+
+const modulo = remainder(152, 12);
+console.log(modulo);
+//-----------------------------------------
 
 /*
 These console.asserts check if your functions are correct. If nothing appears in your console it works properly!
